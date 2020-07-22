@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		8DF90D3824C86E28004955A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF90D3624C86E28004955A3 /* Main.storyboard */; };
 		8DF90D3A24C86E2B004955A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF90D3924C86E2B004955A3 /* Assets.xcassets */; };
 		8DF90D3D24C86E2B004955A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF90D3B24C86E2B004955A3 /* LaunchScreen.storyboard */; };
+		8DF90D4524C87B2D004955A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF90D4424C87B2D004955A3 /* TableViewController.swift */; };
 		9A87315791D57BA09F478085 /* Pods_GoogleAdmobImages01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD5C099E606A58F9D9D4A4 /* Pods_GoogleAdmobImages01.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		8DF90D3924C86E2B004955A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF90D3C24C86E2B004955A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DF90D3E24C86E2B004955A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF90D4424C87B2D004955A3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B5FD5C099E606A58F9D9D4A4 /* Pods_GoogleAdmobImages01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAdmobImages01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				06054FE5077A51B7A87FED31 /* Pods-GoogleAdmobImages01.debug.xcconfig */,
 				1882D69A5215221C6EF8A857 /* Pods-GoogleAdmobImages01.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				8DF90D3924C86E2B004955A3 /* Assets.xcassets */,
 				8DF90D3B24C86E2B004955A3 /* LaunchScreen.storyboard */,
 				8DF90D3E24C86E2B004955A3 /* Info.plist */,
+				8DF90D4424C87B2D004955A3 /* TableViewController.swift */,
 			);
 			path = GoogleAdmobImages01;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 				8DF90D3524C86E28004955A3 /* ViewController.swift in Sources */,
 				8DF90D3124C86E28004955A3 /* AppDelegate.swift in Sources */,
 				8DF90D3324C86E28004955A3 /* SceneDelegate.swift in Sources */,
+				8DF90D4524C87B2D004955A3 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
